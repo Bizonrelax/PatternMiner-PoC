@@ -1,0 +1,88 @@
+# Contributing to PatternMiner
+
+Thank you for your interest in contributing to PatternMiner! This project aims to revolutionize data compression through decentralized pattern mining.
+
+## Development Setup
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Bizonrelax/PatternMiner-PoC.git
+
+
+Import into Eclipse
+
+File → Import → Existing Projects into Workspace
+
+Select the PatternMiner-PoC folder
+
+Run the project
+
+Right-click Main.java → Run As → Java Application
+
+Project Structure
+src/ - Source code
+
+Main.java - Entry point with menu system
+
+crypto/ - PatternCoin cryptocurrency implementation
+
+gui/ - Mining interface and visualization
+
+core/ - Compression algorithms (to be implemented)
+
+network/ - P2P networking (to be implemented)
+
+Areas Needing Help
+High Priority
+Real Pattern Detection - Replace random pattern generation with actual data analysis
+
+Bittensor Integration - Connect to Bittensor network API
+
+P2P Networking - Implement decentralized pattern sharing
+
+Medium Priority
+Improved Compression Algorithms - Better pattern-based compression
+
+Blockchain Implementation - Full PatternCoin blockchain
+
+Web Interface - Browser-based mining dashboard
+
+Low Priority
+Mobile App - Android/iOS mining client
+
+Hardware Acceleration - GPU/FPGA pattern mining
+
+Advanced Analytics - Pattern usefulness scoring
+
+Coding Standards
+Use Java 21 features where appropriate
+
+Follow Eclipse code formatting
+
+Add Javadoc comments for public methods
+
+Write unit tests for new functionality
+
+Pull Request Process
+Fork the repository
+
+Create a feature branch
+
+Implement your changes
+
+Test thoroughly
+
+Submit pull request with description
+
+Communication
+GitHub Issues for bug reports
+
+Pull Requests for code contributions
+
+Email for security issues
+
+Questions?
+Contact the maintainer via GitHub issues or email.
+
+Thank you for contributing to the future of decentralized data compression!
+
